@@ -93,7 +93,7 @@
 .service-card {
   background-color: #1a1a1a;
   border: 2px solid #d1ae5f;
-  border-radius: 20px;
+  border-radius: 0;
   padding: 50px 40px;
   text-align: center;
   transition: all 0.4s ease;

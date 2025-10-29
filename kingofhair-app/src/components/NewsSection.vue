@@ -265,8 +265,9 @@ const goToSlide = (index) => {
   max-width: 49vw;
   background-color: #1a1a1a;
   border: 2px solid #d1ae5f;
-  border-radius: 20px;
-  overflow: hidden;
+  border-radius: 0;
+  overflow: visible;
+  margin-top: 5px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   flex-shrink: 0;
 }
@@ -385,8 +386,8 @@ const goToSlide = (index) => {
     width: 94vw;
     min-width: 94vw;
     max-width: 94vw;
-    margin: 0 3vw;
-    border-radius: 20px;
+    margin: 5px 3vw 0;
+    border-radius: 0;
   }
 
   .news-track {
