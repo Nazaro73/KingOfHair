@@ -15,16 +15,16 @@
           <div class="service-icon">
             <img src="@/assets/icon/icon razor.svg" alt="Razor" class="icon" />
           </div>
-          <h3 class="service-name">Rasage & Coupe</h3>
-          <p class="service-description">Profitez d'un rasage précis et d'une coupe professionnelle pour un style raffiné et une peau douce.</p>
+          <h3 class="service-name">Soin de la barbe</h3>
+          <p class="service-description">Entretenez votre barbe avec des soins professionnels : nettoyage, hydratation, taille et mise en forme pour une barbe saine et élégante.</p>
         </div>
 
         <div class="service-card">
           <div class="service-icon">
             <img src="@/assets/icon/icon beard.svg" alt="Beard" class="icon" />
           </div>
-          <h3 class="service-name">Soin du visage & Rasage</h3>
-          <p class="service-description">Un soin du visage relaxant accompagné d'un rasage de précision pour une peau nette et rafraîchie.</p>
+          <h3 class="service-name">Rasage traditionnel</h3>
+          <p class="service-description">Découvrez l'art du rasage traditionnel à la lame pour une peau parfaitement lisse et un moment de détente absolue.</p>
         </div>
 
         <div class="service-card">
