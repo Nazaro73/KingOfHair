@@ -55,13 +55,14 @@ onUnmounted(() => {
   left: 0;
   width: 100%;
   z-index: 1000;
-  background-color: transparent;
+  background-color: #000000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .nav-menu.scrolled {
-  background-color: rgba(33, 33, 33, 0.95);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  background-color: #000000;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
 }
 
 .nav-container {
@@ -145,9 +146,11 @@ onUnmounted(() => {
   color: #FFFFFF;
   text-decoration: none;
   font-size: 1.1rem;
+  font-family: 'Inter', sans-serif;
   font-weight: 500;
   transition: color 0.3s ease;
   position: relative;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .nav-links li a::after {
