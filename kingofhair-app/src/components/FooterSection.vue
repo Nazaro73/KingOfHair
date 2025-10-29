@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer">
+  <footer id="contact" class="footer">
     <div class="footer-container">
       <h2 class="footer-title">CONTACTEZ NOUS</h2>
 

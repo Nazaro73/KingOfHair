@@ -1,5 +1,5 @@
 <template>
-  <section class="reviews">
+  <section id="avis" class="reviews">
     <div class="reviews-container">
       <p class="reviews-subtitle">Ce que nos clients pensent de nous</p>
       <h2 class="reviews-title">Avis de nos clients</h2>

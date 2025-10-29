@@ -1,5 +1,5 @@
 <template>
-  <section class="hero">
+  <section id="accueil" class="hero">
     <video autoplay loop muted playsinline class="hero-video">
       <source src="@/assets/1029.mp4" type="video/mp4">
     </video>

@@ -1,4 +1,5 @@
 <script setup>
+import NavMenu from './components/NavMenu.vue'
 import HeroSection from './components/HeroSection.vue'
 import ServicesSection from './components/ServicesSection.vue'
 import PricingSection from './components/PricingSection.vue'
@@ -9,6 +10,7 @@ import FooterSection from './components/FooterSection.vue'
 </script>
 
 <template>
+  <NavMenu />
   <HeroSection />
   <ServicesSection />
   <PricingSection />

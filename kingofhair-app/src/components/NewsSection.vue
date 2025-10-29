@@ -1,5 +1,5 @@
 <template>
-  <section class="news">
+  <section id="actualites" class="news">
     <div class="news-container">
       <h2 class="news-title">Actualité</h2>
 
