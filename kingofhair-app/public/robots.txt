@@ -1,0 +1,14 @@
+# Robots.txt pour King of Hair - Coiffeur Chambéry
+# https://www.king-of-hair.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.king-of-hair.com/sitemap.xml
+
+# Empêcher l'indexation des fichiers de développement
+Disallow: /src/
+Disallow: /node_modules/
+Disallow: /*.json$
+Disallow: /*.config.js$

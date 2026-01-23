@@ -5,7 +5,10 @@
     </video>
     <div class="hero-overlay"></div>
     <div class="hero-content">
-      <img src="@/assets/logo-kingofhair.png" alt="King of Hair Logo" class="hero-logo">
+      <h1 class="hero-title">
+        <span class="sr-only">King of Hair - Coiffeur Barbier à Chambéry, salon de coiffure pour hommes en Savoie</span>
+        <img src="@/assets/logo-kingofhair.png" alt="King of Hair - Votre coiffeur barbier à Chambéry, salon de coiffure pour hommes en Savoie" class="hero-logo">
+      </h1>
     </div>
   </section>
 </template>
@@ -69,6 +72,26 @@
     opacity: 1;
     transform: scale(1);
   }
+}
+
+.hero-title {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 @media (max-width: 768px) {

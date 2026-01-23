@@ -5,7 +5,7 @@
       <div class="services-grid">
         <div class="service-card">
           <div class="service-icon">
-            <img src="@/assets/icon/icon scissors.svg" alt="Scissors" class="icon" />
+            <img src="@/assets/icon/icon scissors.svg" alt="Icône coupe de cheveux homme Chambéry" class="icon" />
           </div>
           <h3 class="service-name">Coupe de cheveux</h3>
           <p class="service-description">Une coupe soignée et précise, adaptée à votre style et à la forme de votre visage.</p>
@@ -13,7 +13,7 @@
 
         <div class="service-card">
           <div class="service-icon">
-            <img src="@/assets/icon/icon beard.svg" alt="Beard" class="icon" />
+            <img src="@/assets/icon/icon beard.svg" alt="Icône taille de barbe barbier Chambéry" class="icon" />
           </div>
           <h3 class="service-name">Barbe</h3>
           <p class="service-description">Taille et entretien de votre barbe pour un look impeccable et bien défini.</p>
@@ -21,7 +21,7 @@
 
         <div class="service-card">
           <div class="service-icon">
-            <img src="@/assets/icon/icon hair.svg" alt="Hair" class="icon" />
+            <img src="@/assets/icon/icon hair.svg" alt="Icône coupe enfant coiffeur Chambéry" class="icon" />
           </div>
           <h3 class="service-name">Coupe enfant</h3>
           <p class="service-description">Une coupe adaptée aux plus jeunes, réalisée avec patience et attention.</p>
@@ -29,7 +29,7 @@
 
         <div class="service-card">
           <div class="service-icon">
-            <img src="@/assets/icon/icon razor.svg" alt="Razor" class="icon" />
+            <img src="@/assets/icon/icon razor.svg" alt="Icône formule cheveux et barbe Chambéry" class="icon" />
           </div>
           <h3 class="service-name">Cheveux et barbe</h3>
           <p class="service-description">La formule complète : coupe de cheveux et taille de barbe pour un look parfait.</p>
@@ -37,7 +37,7 @@
 
         <div class="service-card">
           <div class="service-icon">
-            <img src="@/assets/icon/icon facial.svg" alt="Facial" class="icon" />
+            <img src="@/assets/icon/icon facial.svg" alt="Icône soin du visage homme Chambéry" class="icon" />
           </div>
           <h3 class="service-name">Soin de visage</h3>
           <p class="service-description">Nettoyez et revitalisez votre peau grâce à un soin facial apaisant.</p>
@@ -45,7 +45,7 @@
 
         <div class="service-card">
           <div class="service-icon">
-            <img src="@/assets/icon/icon_ ustache.svg" alt="Hair treatment" class="icon" />
+            <img src="@/assets/icon/icon_ ustache.svg" alt="Icône défrisage cheveux Chambéry" class="icon" />
           </div>
           <h3 class="service-name">Défrisage</h3>
           <p class="service-description">Lissez vos cheveux pour un résultat naturel et durable.</p>
@@ -53,7 +53,7 @@
 
         <div class="service-card">
           <div class="service-icon">
-            <img src="@/assets/icon/icon hair.svg" alt="Hair" class="icon" />
+            <img src="@/assets/icon/icon hair.svg" alt="Icône traitement kératine protéine Chambéry" class="icon" />
           </div>
           <h3 class="service-name">Kératine ou protéine</h3>
           <p class="service-description">Traitement professionnel pour des cheveux lisses, brillants et en pleine santé.</p>
