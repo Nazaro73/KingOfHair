@@ -18,18 +18,20 @@
       <div class="reviews-carousel">
         <div class="reviews-track" :style="{ transform: `translateX(calc(-${currentSlide * 100}% - ${currentSlide * 20}px))` }">
           <div v-for="(review, index) in reviews" :key="index" class="review-card">
-            <div class="review-stars">
-              <span class="star">★</span>
-              <span class="star">★</span>
-              <span class="star">★</span>
-              <span class="star">★</span>
-              <span class="star">★</span>
+            <div class="review-header">
+              <div class="review-author">
+                <p class="author-name">{{ review.name }}</p>
+                <p class="review-date">{{ review.date }}</p>
+              </div>
+              <div class="review-stars">
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+              </div>
             </div>
             <p class="review-text">{{ review.text }}</p>
-            <div class="review-author">
-              <p class="author-name">{{ review.name }}</p>
-              <p class="review-date">{{ review.date }}</p>
-            </div>
           </div>
         </div>
       </div>
@@ -55,34 +57,29 @@ let interval = null
 
 const reviews = [
   {
-    name: "Thomas Martin",
-    date: "Il y a 2 semaines",
-    text: "Excellente expérience ! La coupe est impeccable et l'accueil très chaleureux. Je recommande vivement ce salon de coiffure. Un vrai professionnel qui prend le temps de bien faire les choses."
-  },
-  {
-    name: "Lucas Dubois",
-    date: "Il y a 1 mois",
-    text: "Meilleur barbier de la région ! Toujours un travail soigné et une ambiance conviviale. La taille de barbe est parfaite à chaque fois. Je ne vais plus ailleurs depuis 2 ans."
-  },
-  {
-    name: "Antoine Bernard",
-    date: "Il y a 3 semaines",
-    text: "Service au top, très professionnel et à l'écoute. Le rasage traditionnel est exceptionnel, une vraie expérience de détente. Le rapport qualité-prix est imbattable."
-  },
-  {
-    name: "Maxime Rousseau",
-    date: "Il y a 1 semaine",
-    text: "Super accueil et travail impeccable ! J'ai essayé le soin du visage avec la coupe, c'était parfait. L'attention aux détails fait toute la différence. Je reviens sans hésiter."
-  },
-  {
-    name: "Pierre Lefebvre",
+    name: "Jonathan M.",
     date: "Il y a 2 mois",
-    text: "Je viens régulièrement et je ne suis jamais déçu. La qualité du service est constante et les conseils sont toujours pertinents. Ambiance détendue et professionnelle à la fois."
+    text: "Excellent salon à Chambéry ! Le coiffeur est très professionnel, à l'écoute et prend vraiment le temps de comprendre ce qu'on veut. La coupe est toujours impeccable et l'accueil super sympa. Je recommande à 100% !"
   },
   {
-    name: "Alexandre Moreau",
-    date: "Il y a 3 jours",
-    text: "Coupe moderne et soignée, exactement ce que je voulais ! Le coiffeur a su comprendre mes attentes et les dépasser. Un grand professionnalisme et une vraie passion du métier."
+    name: "Ridouan JEBARI",
+    date: "Il y a 2 mois",
+    text: "Je suis allé dans ce salon récemment. L'équipe est très sympathique et accueillante. Le coiffeur est à l'écoute et prend le temps de bien comprendre ce que l'on souhaite. Le résultat est au-delà de mes attentes, une coupe parfaite ! Je recommande vivement ce salon pour son professionnalisme."
+  },
+  {
+    name: "Marwan Mato",
+    date: "Il y a 2 mois",
+    text: "Très professionnel, le coiffeur est superbe aimable et très sympa. Je suis très satisfait de ma coupe et de ma barbe. Je recommande à 100% !"
+  },
+  {
+    name: "Bastien L",
+    date: "Il y a 2 mois",
+    text: "Toujours un plaisir de venir dans ce salon ! Le coiffeur est très professionnel et à l'écoute. Le résultat est parfait, je recommande à tout le monde !"
+  },
+  {
+    name: "Yasmin",
+    date: "Il y a 2 mois",
+    text: "Super salon ! Le coiffeur est super. Mon fils est ressorti content de sa coupe 👍 Du coup monsieur s'est aussi fait coiffer. Et il est ressorti super content de sa coupe aussi. Il a pris le temps de leur faire des coupes au top. Je recommande !!"
   }
 ]
 
@@ -196,27 +193,39 @@ onUnmounted(() => {
   flex-shrink: 0;
 }
 
-.review-stars {
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #d1ae5f;
+}
+
+.review-stars {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
 }
 
 .review-stars .star {
   color: #d1ae5f;
   font-size: 1.2rem;
   margin-right: 3px;
+  line-height: 1;
+}
+
+.review-author {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
 }
 
 .review-text {
   color: #333333;
   font-size: 1.1rem;
   line-height: 1.8;
-  margin-bottom: 25px;
   font-style: italic;
-}
-
-.review-author {
-  border-top: 1px solid #d1ae5f;
-  padding-top: 20px;
 }
 
 .author-name {

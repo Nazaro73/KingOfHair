@@ -20,23 +20,21 @@
                 <img src="@/assets/blog/blog1.webp" alt="Salon King of Hair" />
               </div>
               <div class="news-content">
-                <h3 class="news-card-title">Ouverture du salon en juillet 2026</h3>
+                <h3 class="news-card-title">VOTRE SALON KING OF HAIR VIENT D'OUVRIR</h3>
                 <p class="news-text">
-                  Nous sommes ravis de vous annoncer l'ouverture prochaine de King of Hair à Chambéry !
+                  Nous sommes ravis de vous annoncer l'ouverture de King of Hair à Chambéry !
                   Après plusieurs mois de préparation et d'aménagement, notre salon de coiffure pour hommes
-                  ouvrira ses portes en juillet 2026.
+                  a ouvert ses portes en janvier 2025.
                 </p>
                 <p class="news-text">
-                  Situé au cœur de Chambéry, King of Hair vous proposera des prestations de qualité dans
+                  Situé au cœur de Chambéry, King of Hair vous propose des prestations de qualité dans
                   un cadre moderne et élégant. Que ce soit pour une coupe classique, un rasage traditionnel,
-                  une taille de barbe ou un soin du visage, notre équipe de professionnels passionnés sera
+                  une taille de barbe ou un soin du visage, notre équipe de professionnels passionnés est
                   à votre écoute pour vous offrir un service personnalisé.
                 </p>
                 <p class="news-text">
-                  Nous mettons tout en œuvre pour créer un espace où tradition et modernité se rencontrent,
-                  où chaque client bénéficie d'une expérience unique dans une ambiance conviviale et raffinée.
-                  Restez connectés pour découvrir bientôt plus de détails sur nos services, nos horaires et
-                  nos offres de lancement !
+                  Nous mettons tout en œuvre pour créer un espace chaleureux et convivial,
+                  où chaque client bénéficie d'une expérience unique et reposante dans une ambiance raffinée.
                 </p>
               </div>
             </article>
@@ -97,7 +95,7 @@ const touchEndX = ref(0)
 const isDragging = ref(false)
 
 const newsArticles = ref([
-  { id: 1, title: 'Ouverture du salon' },
+  { id: 1, title: 'King of Hair vient d\'ouvrir' },
   { id: 2, title: 'Prise de rendez-vous' }
 ])
 
@@ -143,22 +141,8 @@ onUnmounted(() => {
 })
 
 const trackTransform = computed(() => {
-  const isMobile = windowWidth.value <= 768
-  const isTablet = windowWidth.value <= 1024 && windowWidth.value > 768
-
-  let cardWidth = 49
-  let gap = 2.5
-
-  if (isMobile) {
-    cardWidth = 94
-    gap = 6
-  } else if (isTablet) {
-    cardWidth = 70
-    gap = 2
-  }
-
   return {
-    transform: `translateX(calc(-${currentSlide.value * (cardWidth + gap)}vw))`
+    transform: `translateX(-${currentSlide.value * 100}%)`
   }
 })
 
@@ -222,7 +206,7 @@ const goToSlide = (index) => {
 .news-track {
   display: flex;
   transition: transform 0.5s ease-in-out;
-  gap: 2.5vw;
+  gap: 0;
 }
 
 .nav-arrow {
@@ -260,9 +244,9 @@ const goToSlide = (index) => {
 }
 
 .news-card {
-  width: 49vw;
-  min-width: 49vw;
-  max-width: 49vw;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
   background-color: #1a1a1a;
   border: 2px solid #d1ae5f;
   border-radius: 0;
@@ -344,13 +328,9 @@ const goToSlide = (index) => {
 
 @media (max-width: 1024px) {
   .news-card {
-    width: 70vw;
-    min-width: 70vw;
-    max-width: 70vw;
-  }
-
-  .news-track {
-    gap: 2vw;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
   }
 }
 
@@ -383,15 +363,11 @@ const goToSlide = (index) => {
   }
 
   .news-card {
-    width: 94vw;
-    min-width: 94vw;
-    max-width: 94vw;
-    margin: 5px 3vw 0;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    margin: 5px 0 0;
     border-radius: 0;
-  }
-
-  .news-track {
-    gap: 0;
   }
 
   .nav-arrow {

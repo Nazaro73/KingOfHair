@@ -5,38 +5,65 @@
       <div class="pricing-grid">
         <div class="pricing-item">
           <div class="pricing-header">
-            <h3 class="pricing-name">Coupe</h3>
+            <h3 class="pricing-name">Coupe de cheveux <span class="pricing-duration">30min</span></h3>
+            <span class="pricing-price">18 €</span>
+          </div>
+          <div class="pricing-separator"></div>
+          <p class="pricing-description">Une coupe soignée et précise, adaptée à votre style et à la forme de votre visage.</p>
+        </div>
+
+        <div class="pricing-item">
+          <div class="pricing-header">
+            <h3 class="pricing-name">Barbe <span class="pricing-duration">20min</span></h3>
+            <span class="pricing-price">10 €</span>
+          </div>
+          <div class="pricing-separator"></div>
+          <p class="pricing-description">Taille et entretien de votre barbe pour un look impeccable et bien défini.</p>
+        </div>
+
+        <div class="pricing-item">
+          <div class="pricing-header">
+            <h3 class="pricing-name">Coupe enfant <span class="pricing-duration">30min</span></h3>
             <span class="pricing-price">15 €</span>
           </div>
           <div class="pricing-separator"></div>
-          <p class="pricing-description">Coupe aux ciseaux et au rasoir pour un résultat net, précis et parfaitement adapté à votre style.</p>
+          <p class="pricing-description">Une coupe adaptée aux plus jeunes, réalisée avec patience et attention.</p>
         </div>
 
         <div class="pricing-item">
           <div class="pricing-header">
-            <h3 class="pricing-name">Coupe + Barbe + Shampoing</h3>
-            <span class="pricing-price">20 €</span>
-          </div>
-          <div class="pricing-separator"></div>
-          <p class="pricing-description">Profitez d'un service complet : une coupe soignée, une taille de barbe sur mesure et un shampoing rafraîchissant pour une finition impeccable.</p>
-        </div>
-
-        <div class="pricing-item">
-          <div class="pricing-header">
-            <h3 class="pricing-name">Soin du visage + Coupe</h3>
-            <span class="pricing-price">20 €</span>
-          </div>
-          <div class="pricing-separator"></div>
-          <p class="pricing-description">Offrez-vous un moment de détente avec un soin du visage revitalisant suivi d'une coupe élégante pour un look frais et soigné.</p>
-        </div>
-
-        <div class="pricing-item">
-          <div class="pricing-header">
-            <h3 class="pricing-name">Formule Complète</h3>
+            <h3 class="pricing-name">Cheveux et barbe <span class="pricing-duration">45min</span></h3>
             <span class="pricing-price">25 €</span>
           </div>
           <div class="pricing-separator"></div>
-          <p class="pricing-description">Le service premium tout compris : coupe, barbe, shampoing et soin du visage pour une expérience complète et relaxante.</p>
+          <p class="pricing-description">La formule complète : coupe de cheveux et taille de barbe pour un look parfait.</p>
+        </div>
+
+        <div class="pricing-item">
+          <div class="pricing-header">
+            <h3 class="pricing-name">Soin de visage <span class="pricing-duration">15min</span></h3>
+            <span class="pricing-price">10 €</span>
+          </div>
+          <div class="pricing-separator"></div>
+          <p class="pricing-description">Nettoyez et revitalisez votre peau grâce à un soin facial apaisant.</p>
+        </div>
+
+        <div class="pricing-item">
+          <div class="pricing-header">
+            <h3 class="pricing-name">Défrisage <span class="pricing-duration">30min</span></h3>
+            <span class="pricing-price">10 €</span>
+          </div>
+          <div class="pricing-separator"></div>
+          <p class="pricing-description">Lissez vos cheveux pour un résultat naturel et durable.</p>
+        </div>
+
+        <div class="pricing-item">
+          <div class="pricing-header">
+            <h3 class="pricing-name">Kératine ou protéine <span class="pricing-duration">1h 30min</span></h3>
+            <span class="pricing-price">Sur devis</span>
+          </div>
+          <div class="pricing-separator"></div>
+          <p class="pricing-description">Traitement professionnel pour des cheveux lisses, brillants et en pleine santé.</p>
         </div>
       </div>
     </div>
@@ -118,6 +145,14 @@
   text-align: left;
   margin: 0;
   font-weight: 300;
+}
+
+.pricing-duration {
+  color: #888;
+  font-weight: 400;
+  font-size: 0.85rem;
+  font-family: 'Inter', sans-serif;
+  margin-left: 8px;
 }
 
 @media (max-width: 1024px) {

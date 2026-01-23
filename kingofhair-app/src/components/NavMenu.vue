@@ -16,6 +16,7 @@
         <li><a href="#avis" @click="closeMenu">Avis</a></li>
         <li><a href="#actualites" @click="closeMenu">Actualités</a></li>
         <li><a href="#contact" @click="closeMenu">Contact</a></li>
+        <li class="nav-cta"><a href="#reservation" @click="closeMenu">Réserver</a></li>
       </ul>
     </div>
   </nav>
@@ -172,6 +173,25 @@ onUnmounted(() => {
   width: 100%;
 }
 
+.nav-cta a {
+  background: linear-gradient(135deg, #d1ae5f 0%, #b8963f 100%);
+  color: #000 !important;
+  padding: 10px 25px;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.nav-cta a::after {
+  display: none;
+}
+
+.nav-cta a:hover {
+  color: #000 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 20px rgba(209, 174, 95, 0.4);
+}
+
 @media (max-width: 768px) {
   .nav-container {
     padding: 15px 20px;
@@ -214,6 +234,17 @@ onUnmounted(() => {
 
   .nav-links li a {
     font-size: 1.3rem;
+  }
+
+  .nav-cta {
+    margin-top: 20px;
+    border-bottom: none !important;
+  }
+
+  .nav-cta a {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2rem;
   }
 }
 </style>

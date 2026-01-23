@@ -8,7 +8,7 @@
           <MapPinIcon class="contact-icon" />
           <div class="contact-info">
             <h3 class="contact-label">Adresse</h3>
-            <p class="contact-text">123 Rue de Chambéry</p>
+            <p class="contact-text">393 Rue de la République</p>
             <p class="contact-text">73000 Chambéry, France</p>
           </div>
         </div>
@@ -17,7 +17,7 @@
           <PhoneIcon class="contact-icon" />
           <div class="contact-info">
             <h3 class="contact-label">Téléphone</h3>
-            <a href="tel:+33123456789" class="contact-link">+33 1 23 45 67 89</a>
+            <a href="tel:+33986767355" class="contact-link">09 86 76 73 55</a>
           </div>
         </div>
 
@@ -25,7 +25,7 @@
           <EnvelopeIcon class="contact-icon" />
           <div class="contact-info">
             <h3 class="contact-label">Email</h3>
-            <a href="mailto:contact@kingofhair.fr" class="contact-link">contact@kingofhair.fr</a>
+            <a href="mailto:king.of.hair.chambery@gmail.com" class="contact-link">king.of.hair.chambery@gmail.com</a>
           </div>
         </div>
 
@@ -33,8 +33,9 @@
           <ClockIcon class="contact-icon" />
           <div class="contact-info">
             <h3 class="contact-label">Horaires</h3>
-            <p class="contact-text">Lundi - Vendredi : 9h - 19h</p>
-            <p class="contact-text">Samedi : 9h - 18h</p>
+            <p class="contact-text">Lun - Jeu : 09:00 - 19:00</p>
+            <p class="contact-text">Vendredi : 09:00 - 12:30 / 14:00 - 19:00</p>
+            <p class="contact-text">Samedi : 09:00 - 19:00</p>
             <p class="contact-text">Dimanche : Fermé</p>
           </div>
         </div>

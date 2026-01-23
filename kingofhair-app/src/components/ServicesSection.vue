@@ -7,48 +7,56 @@
           <div class="service-icon">
             <img src="@/assets/icon/icon scissors.svg" alt="Scissors" class="icon" />
           </div>
-          <h3 class="service-name">Coupe de cheveux & Taille de barbe</h3>
-          <p class="service-description">Offrez-vous une coupe élégante et une barbe parfaitement taillée. Un soin complet pour un look soigné et moderne.</p>
-        </div>
-
-        <div class="service-card">
-          <div class="service-icon">
-            <img src="@/assets/icon/icon razor.svg" alt="Razor" class="icon" />
-          </div>
-          <h3 class="service-name">Soin de la barbe</h3>
-          <p class="service-description">Entretenez votre barbe avec des soins professionnels : nettoyage, hydratation, taille et mise en forme pour une barbe saine et élégante.</p>
+          <h3 class="service-name">Coupe de cheveux</h3>
+          <p class="service-description">Une coupe soignée et précise, adaptée à votre style et à la forme de votre visage.</p>
         </div>
 
         <div class="service-card">
           <div class="service-icon">
             <img src="@/assets/icon/icon beard.svg" alt="Beard" class="icon" />
           </div>
-          <h3 class="service-name">Rasage traditionnel</h3>
-          <p class="service-description">Découvrez l'art du rasage traditionnel à la lame pour une peau parfaitement lisse et un moment de détente absolue.</p>
-        </div>
-
-        <div class="service-card">
-          <div class="service-icon">
-            <img src="@/assets/icon/icon facial.svg" alt="Facial" class="icon" />
-          </div>
-          <h3 class="service-name">Soin du visage</h3>
-          <p class="service-description">Nettoyez, hydratez et revitalisez votre peau grâce à un soin facial complet et apaisant.</p>
-        </div>
-
-        <div class="service-card">
-          <div class="service-icon">
-            <img src="@/assets/icon/icon_ ustache.svg" alt="Mustache" class="icon" />
-          </div>
-          <h3 class="service-name">Taille de moustache</h3>
-          <p class="service-description">Une mise en forme précise de votre moustache pour un style net et parfaitement équilibré.</p>
+          <h3 class="service-name">Barbe</h3>
+          <p class="service-description">Taille et entretien de votre barbe pour un look impeccable et bien défini.</p>
         </div>
 
         <div class="service-card">
           <div class="service-icon">
             <img src="@/assets/icon/icon hair.svg" alt="Hair" class="icon" />
           </div>
-          <h3 class="service-name">Coiffure & Styling</h3>
-          <p class="service-description">Donnez forme à vos cheveux avec un coiffage professionnel adapté à votre style et à votre personnalité.</p>
+          <h3 class="service-name">Coupe enfant</h3>
+          <p class="service-description">Une coupe adaptée aux plus jeunes, réalisée avec patience et attention.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <img src="@/assets/icon/icon razor.svg" alt="Razor" class="icon" />
+          </div>
+          <h3 class="service-name">Cheveux et barbe</h3>
+          <p class="service-description">La formule complète : coupe de cheveux et taille de barbe pour un look parfait.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <img src="@/assets/icon/icon facial.svg" alt="Facial" class="icon" />
+          </div>
+          <h3 class="service-name">Soin de visage</h3>
+          <p class="service-description">Nettoyez et revitalisez votre peau grâce à un soin facial apaisant.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <img src="@/assets/icon/icon_ ustache.svg" alt="Hair treatment" class="icon" />
+          </div>
+          <h3 class="service-name">Défrisage</h3>
+          <p class="service-description">Lissez vos cheveux pour un résultat naturel et durable.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <img src="@/assets/icon/icon hair.svg" alt="Hair" class="icon" />
+          </div>
+          <h3 class="service-name">Kératine ou protéine</h3>
+          <p class="service-description">Traitement professionnel pour des cheveux lisses, brillants et en pleine santé.</p>
         </div>
       </div>
     </div>
