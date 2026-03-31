@@ -1,7 +1,7 @@
 <template>
   <section id="tarifs" class="pricing">
     <div class="pricing-container">
-      <h2 class="pricing-title">Nos Services & Tarifs</h2>
+      <h2 class="pricing-title">Tarifs Coiffure & Barbe</h2>
       <div class="pricing-grid">
         <div class="pricing-item">
           <div class="pricing-header">

@@ -1,8 +1,8 @@
 <template>
   <section id="reservation" class="booking-section">
     <div class="booking-container">
-      <h2 class="booking-title">Réservez votre créneau</h2>
-      <p class="booking-subtitle">Prenez rendez-vous en ligne en quelques clics</p>
+      <h2 class="booking-title">Réservez chez votre Coiffeur à Chambéry</h2>
+      <p class="booking-subtitle">Prenez rendez-vous en ligne en quelques clics chez King of Hair</p>
 
       <div class="booking-content">
         <div class="booking-info">

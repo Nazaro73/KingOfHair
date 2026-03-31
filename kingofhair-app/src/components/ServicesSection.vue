@@ -1,7 +1,7 @@
 <template>
   <section id="services" class="services">
     <div class="services-container">
-      <h2 class="services-title">Nos Prestations</h2>
+      <h2 class="services-title">Nos Prestations de Coiffure à Chambéry</h2>
       <div class="services-grid">
         <div class="service-card">
           <div class="service-icon">

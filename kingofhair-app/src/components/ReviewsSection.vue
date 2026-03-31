@@ -2,7 +2,7 @@
   <section id="avis" class="reviews">
     <div class="reviews-container">
       <p class="reviews-subtitle">Ce que nos clients pensent de nous</p>
-      <h2 class="reviews-title">Avis de nos clients</h2>
+      <h2 class="reviews-title">Avis Clients<br><span class="reviews-title-sub">KING of Hair – Coiffeur Chambéry</span></h2>
 
       <div class="reviews-rating">
         <div class="stars">
@@ -12,7 +12,7 @@
           <span class="star">★</span>
           <span class="star">★</span>
         </div>
-        <p class="rating-text">5.0 sur Google · 70 avis</p>
+        <p class="rating-text">5.0 sur Google · 125 avis</p>
       </div>
 
       <div class="reviews-carousel">
@@ -143,6 +143,14 @@ onUnmounted(() => {
   font-family: 'Abril Fatface', serif;
   letter-spacing: 2px;
   text-transform: uppercase;
+  line-height: 1.3;
+}
+
+.reviews-title-sub {
+  display: block;
+  font-size: 1.8rem;
+  color: #d1ae5f;
+  letter-spacing: 3px;
 }
 
 .reviews-rating {

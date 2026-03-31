@@ -1,7 +1,7 @@
 <template>
   <footer id="contact" class="footer">
     <div class="footer-container">
-      <h2 class="footer-title">CONTACTEZ NOUS</h2>
+      <h2 class="footer-title">Contactez King of Hair – Coiffeur Chambéry</h2>
 
       <div class="footer-content">
         <div class="contact-item">
@@ -42,7 +42,7 @@
       </div>
 
       <div class="footer-bottom">
-        <p class="copyright">&copy; 2024 King of Hair. Tous droits réservés.</p>
+        <p class="copyright">&copy; 2025 King of Hair – Coiffeur Barbier à Chambéry. Tous droits réservés.</p>
       </div>
     </div>
   </footer>
